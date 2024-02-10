@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.first {
+    border: 2px solid grey;
+    height: 200px; 
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100px; 
+}
+
+.circle {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; 
+    background-color: orange;
+    border: 2px solid black;
+}
+
+.square {
+    width: 50px; 
+    height: 50px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.orange {
+    align-items: start;
+    justify-content: end;
+}
+
+.blue {
+    align-items: end;
+}
